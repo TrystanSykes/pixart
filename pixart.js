@@ -18,5 +18,5 @@ for (i = 0; i < noOfDivs; i++) {
 $squares = $('.square');
 
 $squares.on('click', function(event){
-  $(event.target).css('background', 'green');
+  $(event.target).css('background', $brush.css('background'));
 })
