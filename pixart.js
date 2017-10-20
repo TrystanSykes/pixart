@@ -15,3 +15,8 @@ for (i = 0; i < noOfDivs; i++) {
   $('body').append($square)
 };
 
+$squares = $('.square');
+
+$squares.on('click', function(event){
+  $(event.target).css('background', 'green');
+})
