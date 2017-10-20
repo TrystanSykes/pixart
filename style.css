@@ -5,6 +5,13 @@
   margin: 15px auto;
 }
 
+.stamp {
+  width: 100px;
+  height: 100px;
+  background: url('https://images-na.ssl-images-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg');
+  margin: 15px auto;
+}
+
 .square {
   float: left;
   width: 10px;
